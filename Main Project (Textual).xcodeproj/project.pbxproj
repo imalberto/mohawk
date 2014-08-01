@@ -925,8 +925,6 @@
 		4CCF2F9915804BC9006FFE21 /* core.js in Copy JavaScript Files */ = {isa = PBXBuildFile; fileRef = 4CCF2F5315804888006FFE21 /* core.js */; };
 		4CD0640F194E5F7D002A9FF5 /* TVCMainWindowMavericks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0640B194E5F7D002A9FF5 /* TVCMainWindowMavericks.xib */; };
 		4CD06410194E5F7D002A9FF5 /* TVCMainWindowMavericks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0640B194E5F7D002A9FF5 /* TVCMainWindowMavericks.xib */; };
-		4CD06411194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0640D194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib */; };
-		4CD06412194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CD0640D194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib */; };
 		4CD4165B184065E3005B134D /* TDCProgressInformationSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4165A184065E3005B134D /* TDCProgressInformationSheet.m */; };
 		4CD4165C184065E3005B134D /* TDCProgressInformationSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4165A184065E3005B134D /* TDCProgressInformationSheet.m */; };
 		4CD6252A1870B934002FEA17 /* TDCFileTransferDialogTransferController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CD625271870B934002FEA17 /* TDCFileTransferDialogTransferController.m */; };
@@ -1590,7 +1588,6 @@
 		4CCF2EEA15804790006FFE21 /* IRCNetworks.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = IRCNetworks.plist; path = Resources/Miscellaneous/IRCNetworks.plist; sourceTree = SOURCE_ROOT; };
 		4CCF2F5315804888006FFE21 /* core.js */ = {isa = PBXFileReference; explicitFileType = text; fileEncoding = 4; name = core.js; path = Resources/Javascript/API/core.js; sourceTree = SOURCE_ROOT; };
 		4CD0640C194E5F7D002A9FF5 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TVCMainWindowMavericks.xib; sourceTree = SOURCE_ROOT; };
-		4CD0640E194E5F7D002A9FF5 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Resources/Localization/English.lproj/TVCMainWindowYosemite.xib; sourceTree = SOURCE_ROOT; };
 		4CD4165A184065E3005B134D /* TDCProgressInformationSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDCProgressInformationSheet.m; path = Dialogs/TDCProgressInformationSheet.m; sourceTree = "<group>"; };
 		4CD625271870B934002FEA17 /* TDCFileTransferDialogTransferController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TDCFileTransferDialogTransferController.m; path = "Dialogs/File Transfers/TDCFileTransferDialogTransferController.m"; sourceTree = "<group>"; };
 		4CDB24A018CAB914007EF6DE /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HockeySDK.framework; path = Frameworks/HockeySDK.framework; sourceTree = "<group>"; };
@@ -1779,7 +1776,6 @@
 				4C8AF724158E9B330026668C /* TVCInputPromptDialog.xib */,
 				4CABE85C184061E5002FE4B8 /* TDCProgressInformationSheet.xib */,
 				4CD0640B194E5F7D002A9FF5 /* TVCMainWindowMavericks.xib */,
-				4CD0640D194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib */,
 				4C8AF726158E9B330026668C /* TXCMainMenu.xib */,
 			);
 			name = "User Interface";
@@ -3421,7 +3417,6 @@
 				4C8AF737158E9B330026668C /* TVCInputPromptDialog.xib in Resources */,
 				4C7A21951979C54400449C1F /* VibrantDarkServerListViewPrivateMessageUserIconActive@2x.tif in Resources */,
 				4C2645CF1989EAC40025FADF /* FormattingColor_Random@2x.tif in Resources */,
-				4CD06411194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib in Resources */,
 				4C46F4551943A654004CA8BA /* encryptionLockIconLight@2x.tif in Resources */,
 				4C7766481978CECA00759774 /* MavericksDarkServerListViewDisclosureUp@2x.tif in Resources */,
 				4C8AF738158E9B330026668C /* TXCMainMenu.xib in Resources */,
@@ -3540,7 +3535,6 @@
 				4C5BA39D16F1302F00A96CA2 /* TVCInputPromptDialog.xib in Resources */,
 				4C7A21961979C54400449C1F /* VibrantDarkServerListViewPrivateMessageUserIconActive@2x.tif in Resources */,
 				4C2645D01989EAC40025FADF /* FormattingColor_Random@2x.tif in Resources */,
-				4CD06412194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib in Resources */,
 				4C46F4561943A654004CA8BA /* encryptionLockIconLight@2x.tif in Resources */,
 				4C7766491978CECA00759774 /* MavericksDarkServerListViewDisclosureUp@2x.tif in Resources */,
 				4C5BA39E16F1302F00A96CA2 /* TXCMainMenu.xib in Resources */,
@@ -4146,14 +4140,6 @@
 				4CD0640C194E5F7D002A9FF5 /* English */,
 			);
 			name = TVCMainWindowMavericks.xib;
-			sourceTree = "<group>";
-		};
-		4CD0640D194E5F7D002A9FF5 /* TVCMainWindowYosemite.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CD0640E194E5F7D002A9FF5 /* English */,
-			);
-			name = TVCMainWindowYosemite.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
